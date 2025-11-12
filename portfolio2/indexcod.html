@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <a href="index.html">Go back</a>
+  <h1>web portfolio html JS and css — Source Code</h1>
+  <br>
+  <br>
+  <br>
+  <h2>Html Source Code</h2>
+  <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Nattapat's web portfolio&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;index.css&quot;&gt;
+  &lt;link href=&quot;https://unpkg.com/aos@2.3.1/dist/aos.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+  &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+  &lt;link
+    href=&quot;https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&amp;family=Marko+One&amp;family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&amp;display=swap&quot;
+    rel=&quot;stylesheet&quot;&gt;
+  &lt;link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;header class=&quot;header&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;
+      &lt;img src=&quot;Logo_ku_th.svg.png&quot; alt=&quot;&quot;&gt;
+      &lt;h1&gt;Nattapat &lt;span&gt;Soedchai&lt;/span&gt;&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;nav class=&quot;navbar&quot;&gt;
+      &lt;a href=&quot;#Home&quot;&gt;SOP&lt;/a&gt;
+      &lt;a href=&quot;#About&quot;&gt;About Me&lt;/a&gt;
+      &lt;a href=&quot;#Education&quot;&gt;Education&lt;/a&gt;
+      &lt;a href=&quot;#Skill&quot;&gt;Skills&lt;/a&gt;
+      &lt;a href=&quot;#Project&quot;&gt;Showcase&lt;/a&gt;
+      &lt;a href=&quot;#Contact&quot;&gt;Contact&lt;/a&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+
+  &lt;section class=&quot;home&quot; id=&quot;Home&quot;&gt;
+    &lt;div class=&quot;Contenthome&quot; data-aos=&quot;fade-up&quot; data-aos-duration=&quot;1000&quot;&gt;
+      &lt;h1&gt;SOP&lt;/h1&gt;
+      &lt;h2&gt;สวัสดีครับผม นาย &lt;span&gt;ณัฐพัชร์ เสริฐชัย&lt;/span&gt; &lt;/h2&gt;
+      &lt;p data-aos=&quot;zoom-in&quot; data-aos-delay=&quot;400&quot;&gt;
+        ผมมีความฝันอยากทำงานเป็น full stack developer ผมชอบการทำเว็บไซต์และสิ่งต่างๆเกี่ยวกับcoding
+        ผมอยากเข้ามหาวิทยาลัยเกษตรศาสตร์บางเขน คณะวิทยาศาสตร์ สาขาวิชาวิทยาการคอมพิวเตอร์ เพราะว่าชอบและเห็นถึงชื่อเสียงของ
+        มหาวิทยาลัยเกษตรศาสตร์ เลยคิดว่าในอนาคตถ้าผมได้เรียนมหาวิทยาลัยนี้จะทำให้ผมบรรลุเป้าหมายลุล่วงอย่างแน่นอน
+      &lt;/p&gt;
+      &lt;div data-aos=&quot;fade-right&quot; data-aos-delay=&quot;500&quot; data-aos-duration=&quot;1000&quot; data-aos-easing=&quot;ease-in-out&quot;&gt;
+        &lt;div class=&quot;bbtt-cc&quot;&gt;
+          &lt;button class=&quot;btn-cc1&quot;&gt;&lt;a href=&quot;indexcod.html&quot;&gt;Review web portfolio code&lt;/a&gt;&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;About&quot; id=&quot;About&quot;&gt;
+    &lt;div class=&quot;left-side&quot;&gt;
+      &lt;div data-aos=&quot;fade-right&quot; data-aos-delay=&quot;100&quot; data-aos-duration=&quot;1000&quot; data-aos-easing=&quot;ease-in-out&quot;&gt;
+        &lt;div class=&quot;home-content&quot;&gt;
+          &lt;h1&gt;ข้อมูล&lt;span&gt;ส่วนตัว&lt;/span&gt;&lt;/h1&gt;
+          &lt;p&gt;ชื่อ สกุล: นาย ณัฐพัชร์ เสริฐชัย&lt;/p&gt;
+          &lt;p&gt;วัน เดือน ปีเกิด: 12 พฤสจิกายน พ.ศ.2550&lt;/p&gt;
+          &lt;P&gt;อายุ:18ปี&lt;/P&gt;
+          &lt;p&gt;สัญชาติ:ไทย&lt;/p&gt;
+          &lt;p&gt;เชื้อชาติ:ไทย&lt;/p&gt;
+          &lt;h3&gt;ช่องทางติดต่อ&lt;/h3&gt;
+          &lt;p&gt;IDLine:theking123_yes&lt;/p&gt;
+          &lt;p&gt;Email:Nattapatsoedchai@gmail&lt;/p&gt;
+          &lt;p&gt;เบอร์โทร:0955026292&lt;/p&gt;
+          &lt;p&gt;ที่อยู่:18/979 หมู่บ้านเปี่ยมสุขซอย3 ถนนสุขาประชาสรรค์2&lt;/p&gt;
+          &lt;p&gt;จังหวัด:นนทบุรี อำเภอปากเกร็ด ตำบลบางพูด&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;home-img&quot; data-aos=&quot;zoom-in&quot; data-aos-delay=&quot;200&quot; data-aos-duration=&quot;1100&quot;
+      data-aos-easing=&quot;ease-out-back&quot;&gt;
+      &lt;img src=&quot;รูปfirst.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+
+  &lt;section class=&quot;Education&quot; id=&quot;Education&quot;&gt;
+    &lt;h1 data-aos=&quot;fade-up&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;100&quot;&gt;Education&lt;/h1&gt;
+    &lt;div class=&quot;Edcontainer&quot;&gt;
+      &lt;div data-aos=&quot;zoom-in-up&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;100&quot;&gt;
+        &lt;div class=&quot;Edbox-con&quot;&gt;
+          &lt;img src=&quot;รร.บ้านลาด.jpg&quot; alt=&quot;&quot;&gt;
+          &lt;div class=&quot;Edbox&quot;&gt;
+            &lt;h2&gt;ระดับประถม&lt;/h2&gt;
+            &lt;p&gt;โรงเรียนบ้านลาดตะกุด&lt;/p&gt;
+            &lt;p&gt;พ.ศ.2557-2562&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div data-aos=&quot;zoom-in-up&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;200&quot;&gt;
+        &lt;div class=&quot;Edbox-con&quot;&gt;
+          &lt;img src=&quot;รร.ปก.jpg&quot; alt=&quot;&quot;&gt;
+          &lt;div class=&quot;Edbox&quot;&gt;
+            &lt;h2&gt;ระดับมัธยมต้น&lt;/h2&gt;
+            &lt;p&gt;โรงเรียนปากเกร็ด&lt;/p&gt;
+            &lt;p&gt;พ.ศ.2557-2562&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div data-aos=&quot;zoom-in-up&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;300&quot;&gt;
+        &lt;div class=&quot;Edbox-con&quot;&gt;
+          &lt;img src=&quot;รร.ปก.jpg&quot; alt=&quot;&quot;&gt;
+          &lt;div class=&quot;Edbox&quot;&gt;
+            &lt;h2&gt;ระดับมัธยมปลาย&lt;/h2&gt;
+            &lt;p&gt;โรงเรียนปากเกร็ด&lt;/p&gt;
+            &lt;p&gt;พ.ศ.2557-2562&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+
+  &lt;section class=&quot;Skill&quot; id=&quot;Skill&quot;&gt;
+    &lt;h1 data-aos=&quot;fade-up&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;100&quot;&gt;Skills&lt;/h1&gt;
+
+    &lt;div class=&quot;card-container&quot;&gt;
+      &lt;div data-aos=&quot;zoom-in-up&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;300&quot;&gt;
+        &lt;div class=&quot;card-box&quot;&gt;
+          &lt;div class=&quot;card-info&quot;&gt;
+            &lt;i class='bx bxl-html5' id=&quot;logo1&quot;&gt;&lt;/i&gt;
+            &lt;h4&gt;HTML &quot;BEGINNER&quot;&lt;/h4&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div data-aos=&quot;zoom-in-up&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;200&quot;&gt;
+        &lt;div class=&quot;card-box&quot;&gt;
+          &lt;div class=&quot;card-info&quot;&gt;
+            &lt;i class='bx bxl-css3' id=&quot;logo2&quot;&gt;&lt;/i&gt;
+            &lt;h4&gt;CSS &quot;BEGINNER&quot;&lt;/h4&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div data-aos=&quot;zoom-in-up&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;300&quot;&gt;
+        &lt;div class=&quot;card-box&quot;&gt;
+          &lt;div class=&quot;card-info&quot;&gt;
+            &lt;i class='bx bxl-javascript' id=&quot;logo3&quot;&gt;&lt;/i&gt;
+            &lt;h4&gt;JavaScript &quot;BEGINNER&quot;&lt;/h4&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+
+
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+
+  &lt;section class=&quot;Project&quot; id=&quot;Project&quot;&gt;
+    &lt;h1 data-aos=&quot;fade-up&quot; data-aos-duration=&quot;800&quot; data-aos-easing=&quot;ease-in-out&quot;&gt;Showcase&lt;/h1&gt;
+
+    &lt;div class=&quot;project-container&quot;&gt;
+
+      &lt;div class=&quot;projects-box&quot; id=&quot;Project-1&quot; data-aos=&quot;fade-right&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;100&quot;&gt;
+        &lt;div class=&quot;projects-card-left&quot;&gt;
+          &lt;h3&gt;Showcase 1&lt;/h3&gt;
+          &lt;p&gt;ฝึกเขียนหน้าเว็บด้วย HTML CSS &lt;/p&gt;
+          &lt;div class=&quot;BTN-con&quot;&gt;
+            &lt;button class=&quot;btn&quot;&gt;&lt;a href=&quot;project1.html&quot;&gt;Review project&lt;/a&gt;&lt;/button&gt;
+            &lt;button class=&quot;btn&quot;&gt;&lt;a href=&quot;project1code.html&quot;&gt;Review code&lt;/a&gt;&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;projects-img&quot; data-aos=&quot;zoom-in&quot; data-aos-delay=&quot;200&quot;&gt;
+          &lt;img src=&quot;p1.png&quot; alt=&quot;Project 1&quot;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;projects-box&quot; id=&quot;Project-2&quot; data-aos=&quot;fade-left&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;200&quot;&gt;
+        &lt;div class=&quot;projects-card-left&quot;&gt;
+          &lt;h3&gt;Showcase 2&lt;/h3&gt;
+          &lt;p&gt;ฝึกเขียนหน้าเว็บด้วย HTML CSS&lt;/p&gt;
+          &lt;div class=&quot;BTN-con&quot;&gt;
+            &lt;button class=&quot;btn&quot;&gt;&lt;a href=&quot;project2.html&quot;&gt;Review project&lt;/a&gt;&lt;/button&gt;
+            &lt;button class=&quot;btn&quot;&gt;&lt;a href=&quot;project2code.html&quot;&gt;Review code&lt;/a&gt;&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;projects-img&quot; data-aos=&quot;zoom-in&quot; data-aos-delay=&quot;300&quot;&gt;
+          &lt;img src=&quot;p2.png&quot; alt=&quot;Project 2&quot;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;projects-box&quot; id=&quot;Project-3&quot; data-aos=&quot;fade-right&quot; data-aos-duration=&quot;800&quot; data-aos-delay=&quot;300&quot;&gt;
+        &lt;div class=&quot;projects-card-left&quot;&gt;
+          &lt;h3&gt;Showcase 3&lt;/h3&gt;
+          &lt;p&gt;จำลองการทำเขียน CSS ให้เข้ากับขนาดหน้าจอคอม-มือถือ&lt;/p&gt;
+          &lt;div class=&quot;BTN-con&quot;&gt;
+            &lt;button class=&quot;btn&quot;&gt;&lt;a href=&quot;project3.html&quot;&gt;Review project&lt;/a&gt;&lt;/button&gt;
+            &lt;button class=&quot;btn&quot;&gt;&lt;a href=&quot;project3code.html&quot;&gt;Review code&lt;/a&gt;&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;projects-img&quot; data-aos=&quot;zoom-in&quot; data-aos-delay=&quot;400&quot;&gt;
+          &lt;img src=&quot;p3.png&quot; alt=&quot;Project 3&quot;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+
+  &lt;section class=&quot;Contact&quot; id=&quot;Contact&quot;&gt;
+    &lt;div data-aos=&quot;zoom-in&quot; data-aos-delay=&quot;200&quot; data-aos-duration=&quot;300&quot;&gt;
+      &lt;div class=&quot;contect-container&quot;&gt;
+        &lt;h2 class=&quot;heading&quot;&gt;My &lt;span&gt;Contact&lt;/span&gt;(ส่งข้อความมาได้นะครับ)&lt;/h2&gt;
+        &lt;form action=&quot;&quot; method=&quot;&quot;&gt;
+          &lt;div class=&quot;contect-group&quot;&gt;
+            &lt;div class=&quot; input-group&quot;&gt;
+              &lt;input type=&quot;text&quot; id=&quot;fname&quot; name=&quot;firstname&quot; placeholder=&quot;ชื่อ&quot; required&gt;
+              &lt;input type=&quot;text&quot; id=&quot;lname&quot; name=&quot;lastname&quot; placeholder=&quot;สกุล&quot; required&gt;
+            &lt;/div&gt;
+            &lt;textarea name=&quot;message&quot; id=&quot;textcontect&quot; placeholder=&quot;Your message&quot; cols=&quot;30&quot; rows=&quot;10&quot;
+              required&gt;&lt;/textarea&gt;
+            &lt;button type=&quot;submit&quot; id=&quot;Send&quot;&gt;Send&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+  &lt;script src=&quot;https://www.gstatic.com/firebasejs/12.5.0/firebase-app-compat.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore-compat.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://unpkg.com/aos@2.3.1/dist/aos.js&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+    AOS.init();
+  &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+  </code></pre>
+</body>
+
+<br>
+<br>
+<br>
+<br>
+
+<h2>Css Source Code</h2>
+<pre><code>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+:root {
+  --ku-pine-green: #1D746C;
+  --ku-fresh-green: #B5BD00;
+  --ku-science-blue: #2E2A83;
+  --text-dark: #1A1A1A;
+  --bg-light: #F9FAF7;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 5px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo img{
+  height: 90px;
+  width: 90px;
+}
+
+.logo h1{
+  margin-left: 10px;
+}
+
+.navbar{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+
+span {
+  background: linear-gradient(90deg, var(--ku-pine-green), var(--ku-fresh-green));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home {
+  min-height: 100vh;
+  padding: 10rem 15%;
+  background: linear-gradient(180deg, #eaf3ed 0%, #f0f7f4 100%);
+}
+
+.Contenthome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Contenthome h1 {
+  font-size: 120px;
+  color: var(--ku-pine-green);
+}
+
+.Contenthome h2 {
+  font-size: 60px;
+}
+
+.Contenthome p {
+  width: 70%;
+  font-size: 35px;
+  text-align: center;
+}
+
+.bbtt-cc {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-cc1 {
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 22px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  background: linear-gradient(90deg, var(--ku-fresh-green), var(--ku-pine-green));
+  color: #fff;
+  box-shadow: 0 0 10px rgba(29, 116, 108, 0.4);
+}
+
+.btn-cc1:hover {
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 0 25px rgba(181, 189, 0, 0.6), 0 0 10px rgba(29, 116, 108, 0.6);
+  background: linear-gradient(90deg, var(--ku-pine-green), var(--ku-fresh-green));
+}
+
+.bbtt-cc a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  min-height: 100vh;
+  padding: 10rem 15%;
+  background: linear-gradient(180deg, #f0f7f4 0%, #eaf3ed 100%);
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.home-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 800px;
+  background: #ffffff;
+  border-left: 6px solid var(--ku-fresh-green);
+  border-radius: 20px;
+  color: var(--text-dark);
+  box-shadow: 0 10px 25px rgba(29, 116, 108, 0.15);
+  transition: all 0.3s ease-in-out;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.home-content:hover {
+  transform: scale(1.03) translateY(-5px);
+  box-shadow: 0 0 25px rgba(181, 189, 0, 0.3);
+}
+
+.home-content h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.home-content h3 {
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.home-content p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.home-img img {
+  width: 500px;
+  height: 700px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  border-radius: 30px;
+}
+
+.home-img img:hover {
+  box-shadow: 0 0 25px rgba(29, 116, 108, 0.4);
+}
+
+.Education {
+  min-height: 100vh;
+  padding: 10rem 15%;
+  background: linear-gradient(180deg, #eaf3ed 0%, #f0f7f4 100%);
+}
+
+.Education h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 120px;
+  color: var(--ku-pine-green);
+  margin-bottom: 120px;
+}
+
+.Edcontainer {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+  height: 40vh;
+  margin-top: 40px;
+}
+
+.Edbox-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  background: #ffffff;
+  border: 2px solid rgba(29, 116, 108, 0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Edbox-con:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 0 30px rgba(181, 189, 0, 0.3);
+  border-color: var(--ku-fresh-green);
+}
+
+.Edbox {
+  margin-bottom: 20px;
+}
+
+.Edbox-con img {
+  border-radius: 50%;
+  width: 10vw;
+}
+
+.Edbox h2 {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.Edbox p {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Skill {
+  min-height: 100vh;
+  padding: 10rem 15%;
+  background: linear-gradient(180deg, #eaf3ed 0%, #f0f7f4 100%);
+}
+
+.Skill h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 120px;
+  color: var(--ku-pine-green);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.card-box {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 2px solid rgba(29, 116, 108, 0.2);
+  border-radius: 30px;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card-box:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 0 30px rgba(181, 189, 0, 0.3);
+  border-color: var(--ku-fresh-green);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.card-info h4 {
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--ku-pine-green);
+}
+
+.card-info i {
+  font-size: 150px;
+}
+
+#logo1 {
+  color: #F06529;
+}
+
+#logo2 {
+  color: #264DE4;
+}
+
+#logo3 {
+  color: #F7DF1E;
+}
+
+.Project {
+  min-height: 100vh;
+  padding: 10rem 20%;
+  background: linear-gradient(180deg, #f0f7f4 0%, #eaf3ed 100%);
+}
+
+.Project h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  font-size: 120px;
+  color: var(--ku-pine-green);
+}
+
+.project-container {
+  display: grid;
+  grid-auto-rows: 400px;
+  gap: 100px;
+}
+
+.projects-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border: 2px solid rgba(29, 116, 108, 0.2);
+  scroll-margin: 200px;
+}
+
+.projects-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(181, 189, 0, 0.3);
+  border-color: var(--ku-fresh-green);
+}
+
+.projects-box:nth-child(odd) .projects-card-left {
+  border-right: 2px solid black;
+}
+
+.projects-box:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.projects-box:nth-child(even) .projects-card-left {
+  border-left: 2px solid black;
+}
+
+.projects-card-left {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.projects-card-left h3 {
+  font-size: 46px;
+}
+
+.projects-card-left p {
+  width: 80%;
+  font-size: 26px;
+  text-align: center;
+}
+
+.BTN-con {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn {
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08), 0 5px 10px rgba(0, 0, 0, 0.03);
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.projects-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  gap: 30px;
+}
+
+.projects-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#Contact {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 15%;
+  background: linear-gradient(180deg, #eaf3ed 0%, #f0f7f4 100%);
+}
+
+.contect-container {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 50px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 2px solid rgba(29, 116, 108, 0.2);
+  transition: 0.3s;
+}
+
+.contect-container:hover {
+  box-shadow: 0 0 25px rgba(181, 189, 0, 0.4);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: var(--ku-pine-green);
+}
+
+.contect-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contect-group input {
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.contect-group textarea {
+  resize: none;
+  width: 650px;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px;
+  height: 200px;
+}
+
+.contect-group button {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 150px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+</code></pre>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<h2>JS Source Code</h2>
+<pre><code>
+firebase.initializeApp({
+  apiKey: "AIzaSyDBNesMUNpjkZE-oNpNs0Ta1rfb81PdnU0",
+  authDomain: "context-5e8f8.firebaseapp.com",
+  projectId: "context-5e8f8",
+  storageBucket: "context-5e8f8.firebasestorage.app",
+  messagingSenderId: "609282226619",
+  appId: "1:609282226619:web:e341dda18f65dc581eac9e"
+});
+
+
+const db = firebase.firestore().collection("form");
+
+
+let submitButton = document.getElementById("Send");
+
+
+submitButton.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  let firstName = document.getElementById("fname").value;
+  let lastName = document.getElementById("lname").value;
+  let textContect = document.getElementById("textcontect").value;
+
+  db.add({
+    fname: firstName,
+    lname: lastName,
+    textContect: textContect,
+    timestamp: new Date()
+  })
+  .then(() => {
+    alert("ส่งข้อความเสร็จสิ้น ✅");
+    console.log("Data saved");
+  })
+  .catch((error) => {
+    console.error("Error: ", error);
+  });
+});
+
+
+</code></pre>
+
+</html>

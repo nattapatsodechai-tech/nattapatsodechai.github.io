@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  text-decoration: none;
+}
+
+.parent {
+
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 80px 100px 1fr 100px 80px;
+  grid-template-areas:
+    "box-1 box-1 box-1"
+    "box-2 box-3 box-4"
+    "box-2 box-5 box-4"
+    "box-2 box-6 box-4"
+    "box-7 box-7 box-7";
+  gap: 10px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.div1 {
+  background-color: #e6eef7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2 {
+  background-color: #b8e0d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div3 {
+  background-color: #9bb1ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div4 {
+  background-color: #ffd6a5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div5 {
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div6 {
+  background-color: #cddafd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div7 {
+  background-color: #e6eef7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(max-width:678px) {
+  .parent {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 1fr 50px 50px 50px;
+    grid-template-areas:
+      "box-1"
+      "box-2"
+      "box-3"
+      "box-5"
+      "box-4"
+      "box-6"
+      "box-7";
+  }
+}
